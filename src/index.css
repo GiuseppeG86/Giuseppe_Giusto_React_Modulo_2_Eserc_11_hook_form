@@ -1,0 +1,164 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* .nav {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding-right: 2rem;
+}
+
+.nav_static {
+  background-color: rgb(39, 116, 116);
+  height: 8vh;
+  transition: height 0.2s, background-color 0.5s;
+}
+
+.nav_dynamic {
+  background-color: brown;
+  height: 12vh;
+  transition: height 1s, background-color 1s;
+}
+
+.nav > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+  .nav > div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(39, 116, 116);
+    padding-left: 0;
+    border: solid 1px black;
+  }
+
+  .nav ul>li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu h3 {
+    color: white;
+    height: 100%;
+    font-size:x-large;
+  }
+
+  .nav > div:hover > ul {
+    display: block;
+  }
+}
+
+.nav li a, .nav li p{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin: 0;
+} 
+
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  margin: 5% 30% 10% 30%;
+  background-color: rgb(233, 187, 127);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1372px) {
+  .form {
+    margin: 5% 20% 10% 20%
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .form {
+    margin: 5% 10% 10% 10%
+  }
+}
+
+.form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form > form > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  margin: 0 1.5rem;
+  width: 60%;
+}
+
+@media screen and (max-width: 696px) {
+
+  .form {
+    padding: 0.5rem;
+  }
+
+  .form > form > div {
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 0;
+    justify-content: start;
+  }
+  .form input {
+    width: 90%;
+    margin: 0.2rem 0 0 0;
+  }
+}
+
+.form button {
+  padding: 0.4rem 0.6rem;
+  font-weight: bold;
+}
+
+*/

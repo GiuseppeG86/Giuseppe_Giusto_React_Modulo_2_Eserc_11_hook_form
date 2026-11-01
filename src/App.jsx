@@ -1,0 +1,18 @@
+import {RouterProvider} from "react-router"
+import router from "./router/router"
+import { UserContextProvider } from "./context/userContext"
+
+function App() {
+
+
+  return (
+    <>
+    <UserContextProvider>
+      <RouterProvider router={router}/>
+    </UserContextProvider>
+    
+    </>
+  )
+}
+
+export default App
